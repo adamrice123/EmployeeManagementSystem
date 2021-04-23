@@ -73,7 +73,7 @@
                                     </h1>
                                     <div class="card p-4 rounded-plus bg-faded">
                                             <div class="form-group">
-                                                <label class="form-label" for="username">Email</label>
+                                                <label class="form-label" for="username">Email Address</label>
                                                 <asp:TextBox ID="txtEmail" runat="server" CssClass="form-control form-control-lg" placeholder="Enter Your Email" required></asp:TextBox>
                                             </div>
                                             <div class="form-group">
