@@ -99,7 +99,7 @@ public partial class Admin_Salary : System.Web.UI.Page
                 cmd.Parameters.Add("@CreatedBy", SqlDbType.VarChar).Value = "Adam Rice";
                 cmd.Parameters.Add("@CreatedOn", SqlDbType.DateTime).Value = System.DateTime.Now.ToString();
                 InsertUpdateData(cmd);
-                string message = "Employee Salary Save Successfully!!";
+                string message = "Employee Salary Saved Successfully!";
                 System.Text.StringBuilder sb = new System.Text.StringBuilder();
                 sb.Append("<script type = 'text/javascript'>");
                 sb.Append("window.onload=function(){");
